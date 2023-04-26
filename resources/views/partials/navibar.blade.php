@@ -13,7 +13,7 @@
             <li><a href="{{ route('contato') }}">CONTATO</a></li>
         </ul>
         {{-- Menu Mobile --}}
-        <ul id="slide-out" class="sidenav hoverable">
+        <ul id="slide-out" class="waves-effect waves-ligth sidenav">
                 <li>
                     <div class="user-view">
                         <div class="background">
@@ -24,10 +24,10 @@
                         <a href="#email"><span class="white-text email">jcdsoft@gmail.com</span></a>
                     </div>
                 </li>
-                <li><a href="{{ route('home') }}"><i class="material-icons black-text">home</i> HOME</a></li>
-                <li><a href="{{ route('galeria') }}"><i class="material-icons black-text">photo_library</i>GALERIA</a></li>
-                <li><a href="{{ route('servicos') }}"><i class="material-icons black-text">build</i>SERVIÇOS</a></li>
-                <li><a href="{{ route('contato') }}"><i class="material-icons black-text">contact_phone</i>CONTATO</a></li>
+                <li class="menu"><a href="{{ route('home') }}"><i class="material-icons black-text">home</i> HOME</a></li>
+                <li class="menu"><a href="{{ route('galeria') }}"><i class="material-icons black-text">photo_library</i>GALERIA</a></li>
+                <li class="menu"><a href="{{ route('servicos') }}"><i class="material-icons black-text">build</i>SERVIÇOS</a></li>
+                <li class="menu"><a href="{{ route('contato') }}"><i class="material-icons black-text">contact_phone</i>CONTATO</a></li>
         </ul>
     </div>
 </nav>

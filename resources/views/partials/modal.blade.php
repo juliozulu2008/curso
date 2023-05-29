@@ -1,7 +1,7 @@
 <div class="modal" id="modal-lead">
     <div class="modal-content">
         <h3 class="flow-text">Preencha todos os Campos</h3>
-            <form action="" method="post">
+            <form action="{{ route('lead') }}" method="post">
                 @csrf {{-- Tokemd e segurança Obrigatorio no Laravel --}}
                 <div class="row">
                     {{-- Campo nome --}}

@@ -6,6 +6,8 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.slider').slider();
     $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+
 
     //Configuraçoes Jquery Mak
     $('#tel').mask('(00)0.0000-0000');

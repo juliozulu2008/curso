@@ -20,6 +20,7 @@
     <div class="footer-copyright">
         <div class="container">
             <p>{{ date('Y') }} - Todos os Direitos Reservados</p>
+            <p>Desenvolvido por <a href="https://github.com/juliozulu2008" target="_blank">Julio.C.Dias</a></p>
         </div>
     </div>
 </div>
